@@ -17,10 +17,15 @@
     margin-top: 1rem;
 }
 
+.navbar-cont h1{
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 2rem;
+}
+
 .baricon{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }

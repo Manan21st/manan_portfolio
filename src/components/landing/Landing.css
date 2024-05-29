@@ -19,6 +19,25 @@
     margin-top: 10%;
     margin-right: 10%;
 }
+
+.container-contents h6{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.container-contents h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.container-contents p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
 .left-cont{
     display: flex;
     justify-content: flex-start;
@@ -30,9 +49,9 @@
 
 .landing-img{
     position: absolute;
-    width:350px;
-    height:350px;
-    transform: translateX(-50%);
+    width:400px;
+    height:400px;
+    transform: translateX(-40%);
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -46,4 +65,22 @@
     height: 100%;
     background-color:beige;
     width: 60%;
+}
+
+.social-media{
+    font-size:40px;
+    margin: 0 1rem;
+    color:black;
+}
+
+.button-icon{
+    color:aqua;
+    border: 3px solid aqua;
+    height: 40px;
+    width:160px;
+    border-radius: 25px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 20px;
 }
