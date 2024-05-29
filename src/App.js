@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
-import Landing from './Landing';
-import About from './About';
-import Education from './Education';
-import Skills from './Skills';
-import Experience from './Experience';
-import Projects from './Projects';
-import Achievement from './Achievement';
-import Services from './Services';
-import Contact from './Contact';
-import Footer from './Footer';
+import Navbar from './components/navbar/Navbars';
+import Landing from './components/landing/Landing';
+import About from './components/about/About';
+import Education from './components/education/Education';
+import Skills from './components/skills/Skills';
+import Experience from './components/experience/Experience';
+import Projects from './components/projects/Projects';
+import Achievement from './components/achievement/Achievement';
+import Services from './components/services/Services';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
