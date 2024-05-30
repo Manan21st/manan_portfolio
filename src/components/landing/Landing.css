@@ -16,8 +16,7 @@
 
 .container-contents{
     width:45%;
-    margin-top: 10%;
-    margin-right: 10%;
+    margin:2rem;
 }
 
 .container-contents h6{
@@ -44,8 +43,7 @@
     align-items: flex-end;
     height: 100%;
     background-color: aqua;
-    width: 40%;
-}
+    width: 40%;}
 
 .landing-img{
     position: absolute;

@@ -6,9 +6,9 @@ function About(){
             <div className='line'></div>
             <div className='about-body'>    
                 <div className='about-description'>
-                    <h3>About Me</h3>
-                    <p>
-                        My name is Manan Agrawal. I am a CS Undergrad based in Bengaluru, India.
+                    <h2>About Me</h2>
+                    <p> 
+                        My name's Manan Agrawal. I am a CS Undergrad based in Bengaluru, India.
                         <br />
                         <br />
                         I am passionate about Backend Development, Data Science and Competitive Programming. 

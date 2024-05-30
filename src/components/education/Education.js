@@ -1,8 +1,14 @@
+import './Education.css'; 
+import EducationCard from './EducationCard';
+
 function Education() {
     return (
         <div className="education">
-            <h1>Education</h1>
-            <p>This is the Education page</p>
+            <div className='education-body'>
+                <div className='education-description'>
+                    <h2>Education</h2>
+                </div>
+            </div>
         </div>
     );
 }

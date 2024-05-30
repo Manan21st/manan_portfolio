@@ -1,0 +1,33 @@
+.education{
+    height: 100vh;
+    background-color: beige;
+}
+
+.education-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.education-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.education-card{
+    
+}
+
+.card-img{
+
+}
+
+.education-details{
+
+}
