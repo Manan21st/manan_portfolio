@@ -37,7 +37,7 @@
     margin-bottom: 1rem;
     font-weight: 700;
     color: aqua;
-    margin-left: 8rem;
+    margin-left: 6.5rem;
 }
 
 .about-description p{
@@ -46,5 +46,11 @@
 
 .about-img{
     margin-top: 1rem;
+}
+
+.about-img img{
+    position: relative;
+    height: 450px;
+    width: 600px;
 }
 

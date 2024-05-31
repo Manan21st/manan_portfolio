@@ -1,5 +1,5 @@
 import './About.css';
-import manan_full from '../../assets/manan_full.jpg';
+import aboutgif from '../../assets/guy_coding_blue.gif';
 function About(){
     return (
         <div className="about">
@@ -17,7 +17,7 @@ function About(){
                     </p>
                 </div>
                 <div className='about-img'>
-                    <img src={manan_full} />
+                    <img src={aboutgif} />
                 </div>
             </div>
         </div>

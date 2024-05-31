@@ -1,7 +1,7 @@
 import './Education.css';
 import eduHat from '../../assets/eduHat.svg';
 
-function EducationCard(years,institute,degree){
+function EducationCard({years,institute,degree}){
     return (
         <div className='education-card'>
             <div className='card-img'>

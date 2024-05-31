@@ -9,25 +9,80 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+
 }
 
 .education-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     padding: 2rem;
+    margin-left: 5%;
 }
 
 .education-card{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: aqua;
+    width: 90%;
+    height: 130px;
+    padding:2rem;
+    margin:2rem;
+    border-radius:25px;
+    margin-bottom: 1.5rem;
+}
+
+.education-description h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    margin-left: 6%;
+}
+
+.education-img{
+    margin-right:3%;
+}
+
+.education-img img{
+    height: 500px;
+    width: 650px;
 }
 
 .card-img{
-
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .education-details{
+    display: flex;
+    flex-direction: column;
+}
 
+.education-details h6{
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.education-details h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.education-details h5{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
 }
