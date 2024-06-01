@@ -1,19 +1,22 @@
-.education{
+.experience{
     height: 100vh;
     background-color: beige;
 }
 
-
-.education-body{
+.experience-body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
-
 }
 
-.education-description{
+.experience-img img{
+    height: 500px;
+    width: 650px;
+}
+
+.experience-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +26,14 @@
     margin-left: 5%;
 }
 
-.education-card{
+.experience-description h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    margin-left: 6%;
+}
+
+.experience-card{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -37,25 +47,9 @@
     margin-bottom: 1.5rem;
 }
 
-.education-description h2{
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: .5rem;
-    margin-left: 6%;
-}
-
-.education-img{
-    margin-left:3%;
-}
-
-.education-img img{
-    height: 500px;
-    width: 650px;
-}
-
-.education-card-img{
-    width: 80px;
-    height: 80px;
+.experience-card-img{
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -65,24 +59,31 @@
     justify-content: center;
 }
 
-.education-details{
+.experience-card-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.experience-details{
     display: flex;
     flex-direction: column;
 }
 
-.education-details h6{
+.experience-details h6{
     font-size: 0.8rem;
     font-weight: 900;
     text-align: left;
 }
 
-.education-details h4{
+.experience-details h4{
     font-size: 1.2rem;
     font-weight: 600;
     text-align: left;
 }
 
-.education-details h5{
+.experience-details h5{
     font-size: 1rem;
     font-weight: 500;
     text-align: left;

@@ -4,7 +4,7 @@ import eduHat from '../../assets/eduHat.svg';
 function EducationCard({years,institute,degree}){
     return (
         <div className='education-card'>
-            <div className='card-img'>
+            <div className='education-card-img'>
                 <img src={eduHat} />
             </div>
             <div className='education-details'>
