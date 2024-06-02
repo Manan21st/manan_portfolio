@@ -1,7 +1,9 @@
+import './Footer.css';
+
 function Footer(){
     return (
         <div className="footer">
-            <p>Footer</p>
+            <p>Made by Manan Agrawal :) </p>
         </div>
     );
 }

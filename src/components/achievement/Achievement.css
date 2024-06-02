@@ -1,0 +1,91 @@
+.achievement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.achievement-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    flex:0.4 1;
+    margin-bottom: 10%;
+}
+
+.achievement-body h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: aqua;
+    margin-left: 17%;    
+}
+
+.achievement-body h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.achievement-cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex:0.6 1;
+    flex-wrap: wrap;
+}
+
+
+.achievement-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: aqua;
+    width: 90%;
+    height: fit-content;
+    padding:1.5rem;
+    border-radius:25px;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.achievement-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.achievement-image img{
+    width: 80px;
+    height: 70px;
+}
+
+.achievement-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.achievement-content h2{
+    font-weight: 650;
+    font-size: 1.3rem;
+    line-height: 110%;
+    margin-bottom: 5px ;
+}
+
+.achievement-content p{
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 110%;
+    margin-bottom: 5px ;
+}

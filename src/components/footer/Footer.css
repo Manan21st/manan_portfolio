@@ -1,0 +1,14 @@
+.footer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.footer p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
