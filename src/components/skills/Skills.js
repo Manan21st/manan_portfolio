@@ -34,7 +34,7 @@ function Skills(){
                         delay={0}
                         play={true} 
                         direction="left">
-                            {skills.map((skill,index) => (
+                            {skills.map((skill) => (
                                 <SkillCard skill={skill} image={images(skill)}/>
                                 ))}
                         </Marquee>

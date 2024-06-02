@@ -3,7 +3,6 @@
     background-color: beige;
 }
 
-
 .education-body{
     display: flex;
     justify-content: center;
@@ -46,6 +45,7 @@
 
 .education-img{
     margin-left:3%;
+    margin-top:6.5%;
 }
 
 .education-img img{
