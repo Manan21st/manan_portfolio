@@ -10,10 +10,10 @@ function ProjectCard({title, image, deployedlink,repolink}){
                 <h2>{title}</h2>
                 <img src={image} />
                 <div className="project-repo">
-                    <a href={deployedlink}>
+                    <a target='_blank'href={deployedlink}>
                         <FontAwesomeIcon icon={faPlay} />
                     </a>
-                    <a href={repolink} >
+                    <a target='_blank'href={repolink} >
                         <FontAwesomeIcon icon={faCode} />
                     </a>
                 </div>

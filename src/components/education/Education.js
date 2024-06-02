@@ -4,7 +4,7 @@ import learningcoding from '../../assets/learning-coding.gif';
 
 function Education() {
     return (
-        <div className="education">
+        <div id='education' className="education">
             <div className='education-body'>
             <div className='education-img'>
                     <img src={learningcoding} />

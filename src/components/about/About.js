@@ -2,7 +2,7 @@ import './About.css';
 import aboutgif from '../../assets/guy_coding_blue.gif';
 function About(){
     return (
-        <div className="about">
+        <div id='about' className="about">
             <div className='line'></div>
             <div className='about-body'>    
                 <div className='about-description'>

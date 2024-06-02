@@ -4,7 +4,7 @@ import './Achievement.css';
 function achievementcard({title, description, image,link}){
     return (
         <div className="achievement-card">
-            <a href={link}></a>
+            <a target='_blank'href={link}></a>
             <div className="achievement-content">
                 <h2>{title}</h2>
                 <p>{description}</p>

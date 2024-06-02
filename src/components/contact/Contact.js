@@ -11,7 +11,7 @@ import {faLocationDot} from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
     return (
-        <div className="contact">
+        <div id='contact' className="contact">
             <div className="contact-cont">
                 <h2>Contact Me</h2>
                 <div className="contact-body">
@@ -59,16 +59,16 @@ function Contact() {
                             <p>Electronic City, Bengaluru, India - 560100</p>
                         </div>
                         <div className='social-media-icons'>
-                        <a href='https://www.linkedin.com/in/manan-agrawal-bb6b19291/'>
+                        <a target='_blank'href='https://www.linkedin.com/in/manan-agrawal-bb6b19291/'>
                             <FontAwesomeIcon icon={faLinkedin} className='social-media-icon'/>
                         </a>
-                        <a href='https://github.com/Manan21st'>
+                        <a target='_blank'href='https://github.com/Manan21st'>
                             <FontAwesomeIcon icon={faGithub} className='social-media-icon'/>
                         </a>
-                        <a href='https://www.youtube.com/@NaughtyJoke'>
+                        <a target='_blank'href='https://www.youtube.com/@NaughtyJoke'>
                             <FontAwesomeIcon icon={faYoutube} className='social-media-icon'/>
                         </a>
-                            <a href='https://www.instagram.com/manan.agrawal21/'>
+                            <a target='_blank'href='https://www.instagram.com/manan.agrawal21/'>
                                 <FontAwesomeIcon icon={faInstagram} className='social-media-icon'/>
                             </a>
                         </div>

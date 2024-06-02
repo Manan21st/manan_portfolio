@@ -5,16 +5,16 @@ import { useRef } from 'react';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faGear } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import NavCard from './NavCard';
 
 function Navbar(){
 
     const menuRef = useRef(null); 
 
-    const Pages = ['Home', 'About','Resume','Services', 'Contact'];
+    const Pages = ['Home', 'About','Education','Services', 'Contact'];
 
     const icons = (page) =>{
         switch(page){
@@ -22,8 +22,8 @@ function Navbar(){
                 return faHouse;
             case 'About':
                 return faUser;
-            case 'Resume':
-                return faFile;
+            case 'Education':
+                return faGraduationCap;
             case 'Services':
                 return faGear;
             case 'Contact':

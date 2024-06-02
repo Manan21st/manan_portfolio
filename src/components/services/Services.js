@@ -8,7 +8,7 @@ import ServiceCard from './ServiceCard';
 
 function Services(){
     return (
-        <div className="services">
+        <div id='services' className="services">
             <div className='services-head'>
                 <h2>Services/Roles</h2>
             </div>

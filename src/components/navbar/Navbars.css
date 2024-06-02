@@ -50,7 +50,7 @@
 .close-btn{
     position:relative;
     top: 40px;
-    left:150px;
+    left:200px;
     color:black;
     transform: scale(2);
 }
@@ -76,6 +76,11 @@
     font-size: 2rem;
 }
 
+.redirect-to a{
+    width: 100%;
+    height: 100%;
+}
+
 .nav-card{
     display: flex;
     justify-content: center;
@@ -86,11 +91,14 @@
     border: 4px solid aqua;
     border-radius: 2rem;
     height: 3rem;
-    transition: background-color 1s;
+    transition: all 1s;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-card:hover{
     cursor: pointer;
     background-color: aqua;
+    transform: scale(1.1);
 }
 
