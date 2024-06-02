@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { resumeManan } from '../../assets/Manan_Agrawal_Resume.pdf';
 
 function Landing(){
     return (
@@ -28,7 +29,7 @@ function Landing(){
                         <h6>Computer Science Undergrad</h6>
                         <h1>Manan Agrawal</h1>
                         <p>"Trust is a garden; nurture it with honesty, and it will bloom with loyalty. Neglect it, and only weeds of doubt will grow."</p>
-                        <a href='www.google.com' download={manan_potrait}>
+                        <a download={ manan_potrait }>
                             <button className='button-icon'>Download Resume</button>
                         </a>
                     </div>

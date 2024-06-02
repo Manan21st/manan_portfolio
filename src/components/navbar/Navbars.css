@@ -1,12 +1,12 @@
 .navbar{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
     background-color: transparent;
     position: absolute;
     height: 6rem;
-    z-index: 100;
+    z-index: 1;
 }
 .navbar-cont{
     display: flex;
@@ -28,4 +28,69 @@
     align-items: center;
     width: 2.5rem;
     height: 2.5rem;
+    cursor: pointer;
 }
+
+.menu {
+    position: fixed;
+    height: 100vh;
+    width: 30%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: beige;
+    left: -100%;
+    transition: left 0.5s;
+}
+
+.menu.active{
+    left: 0;
+}
+
+.close-btn{
+    position:relative;
+    top: 40px;
+    left:150px;
+    color:black;
+    transform: scale(2);
+}
+
+.close-btn:hover{
+    cursor: pointer;
+}
+
+.nav-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-icon{
+    margin: 2rem;
+    transform: scale(2);
+}
+
+.redirect-to{
+    font-size: 2rem;
+}
+
+.nav-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 20rem;
+    padding: 2rem 5rem;
+    border: 4px solid aqua;
+    border-radius: 2rem;
+    height: 3rem;
+    transition: background-color 1s;
+}
+
+.nav-card:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+

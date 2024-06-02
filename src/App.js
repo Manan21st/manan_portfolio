@@ -16,16 +16,18 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Landing />
-      <About />
-      <Education />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Achievement />
-      <Services />
-      <Contact />
-      <Footer />
+      <div className='space'>
+        <Landing />
+        <About />
+        <Education />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Achievement />
+        <Services />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
