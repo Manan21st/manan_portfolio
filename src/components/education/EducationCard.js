@@ -5,7 +5,7 @@ function EducationCard({years,institute,degree}){
     return (
         <div className='education-card'>
             <div className='education-card-img'>
-                <img src={eduHat} />
+                <img src={eduHat}/>
             </div>
             <div className='education-details'>
                 <h6>{years}</h6>

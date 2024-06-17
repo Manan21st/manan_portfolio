@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import Typing from '../../TypingEffect';
 
 function Landing(){
     return (
@@ -27,7 +28,7 @@ function Landing(){
                     <div className='container-contents'>
                         <h6>Computer Science Undergrad</h6>
                         <h1>Manan Agrawal</h1>
-                        <p>"Trust is a garden; nurture it with honesty, and it will bloom with loyalty. Neglect it, and only weeds of doubt will grow."</p>
+                        <p><Typing text={['"Trust is a garden; nurture it with honesty, and it will bloom with loyalty. Neglect it, and only weeds of doubt will grow."']} /></p>
                         <a target='_blank'  href='https://drive.google.com/drive/folders/1AdMe3KOECU9gtyjbA91YSFWHryvXYfJt?usp=sharing'>
                             <button className='button-icon'>Download Resume</button>
                         </a>

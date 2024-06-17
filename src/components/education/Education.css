@@ -63,6 +63,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(25, 190, 190);
 }
 
 .education-details{
