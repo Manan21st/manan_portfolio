@@ -46,10 +46,10 @@ const achievementLinks = (achievement)=>{
 const achievementDescription = (achievement)=>{
     switch(achievement){
         case 'CodeChef':
-            return 'I am rated 2* on Codechef. CodeChef is a competitive programming platform where I have solved various problems and also participated in various contests.';
+            return 'I am rated 4* on Codechef. CodeChef is a competitive programming platform where I have solved various problems and also participated in various contests.';
         case 'CodeForces':
-            return 'I am rated newbie on CodeForces. CodeForces is a competitive programming platform where I have solved various problems and also participated in various contests.';
+            return 'I am rated Specialist on CodeForces. CodeForces is a competitive programming platform where I have solved various problems and also participated in various contests.';
         case 'LeetCode':
-            return 'I have solved 150+ problems on LeetCode. LeetCode is platform for practicing coding problems and also for preparing for interviews.';
+            return 'I have solved 350+ problems on LeetCode. LeetCode is platform for practicing coding problems and also for preparing for interviews.';
     }
 }

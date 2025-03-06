@@ -8,7 +8,8 @@ function Experience(){
             <div className="experience-body">
                 <div className="experience-description">
                     <h2>Experience</h2>
-                    <ExperienceCard years='2024-Present' role='Proshows Coordinator' company='Yugaantar Fest SST'/>
+                    <ExperienceCard years='08/2024-Present' role='Teaching Assistant' company='Scaler School of Technology'/>
+                    <ExperienceCard years='08/2024 - 11/2024' role='ML intern' company='VideoVerse'/>
                 </div>
                 <div className="experience-img">
                     <img src={experienceImage} />

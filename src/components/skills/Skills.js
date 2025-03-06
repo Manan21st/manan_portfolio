@@ -15,6 +15,8 @@ import numpy from '../../assets/skill-assets/numpy.svg';
 import pandas from '../../assets/skill-assets/pandas.svg';
 import cpp from '../../assets/skill-assets/c++.svg';
 import loading from '../../assets/skill-assets/loading.svg';
+import fastapi from '../../assets/skill-assets/fastapi.svg';
+import scikitlearn from '../../assets/skill-assets/scikitlearn.svg';
 
 
 
@@ -47,7 +49,7 @@ function Skills(){
 export default Skills;
 
 const skills = [
-    'HTML','CSS','JavaScript','React','Node.js','Java','SpringBoot','MySQL','Python','Numpy','Pandas','C++'
+    'HTML','CSS','JavaScript','React','Node.js','Java','SpringBoot','FastApi','MySQL','Python','Scikit-learn','Numpy','Pandas','C++'
 ];
 
 const images = (skills) => {
@@ -67,10 +69,14 @@ const images = (skills) => {
             return java;
         case 'springboot':
             return springboot;
+        case 'fastapi':
+            return fastapi;
         case 'mysql':
             return mysql;
         case 'python':
             return python;
+        case 'scikit-learn':
+            return scikitlearn;
         case 'numpy':
             return numpy;
         case 'pandas':

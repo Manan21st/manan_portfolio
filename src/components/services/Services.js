@@ -27,19 +27,19 @@ function Services(){
 
 export default Services;
 
-const roles= ['Data Scientist','Quant', 'Backend Developer', 'Data Analyst','ML Engineer'];
+const roles= ['Backend Developer', 'ML Engineer', 'Data Scientist', 'Quant', 'Data Analyst'];
 
 const roleImages = (role)=>{
     switch(role){
+        case 'Backend Developer':
+            return backenddev;
+        case 'ML Engineer':
+            return mlengineer;
         case 'Data Scientist':
             return datascientist;
         case 'Quant':
             return quant;
-        case 'Backend Developer':
-            return backenddev;
         case 'Data Analyst':
             return dataanalyst;
-        case 'ML Engineer':
-            return mlengineer;
     }
 };
